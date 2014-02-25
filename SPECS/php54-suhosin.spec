@@ -9,8 +9,8 @@
 %define name %{php_base}-suhosin
 
 Name:          	%{name} 
-Version:        0.9.34
-Release:        20120520.1.ius%{?dist}
+Version:        0.9.35
+Release:        1.ius%{?dist}
 Summary:        Suhosin is an advanced protection system for PHP installations
 
 Group:          Development/Languages
@@ -64,6 +64,9 @@ rm -rf $RPM_BUILD_ROOT
 %{php_extdir}/suhosin.so
 
 %changelog
+* Tue Feb 25 2014 Ben Harper <ben.harper@rackspace.com> - 0.9.35-1.ius
+- Latest sources from upstream
+
 * Wed Jun 27 2012 Mark McKinstry <mmckinst@nexcess.net> - 0.9.34-20120520.1.ius
 - use 0.9.34 from git for PHP 5.4
 
