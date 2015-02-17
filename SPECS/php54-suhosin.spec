@@ -19,7 +19,7 @@ URL:            http://www.hardened-php.net/suhosin/
 # git clone https://github.com/stefanesser/suhosin.git suhosin
 # cd suhosin && git checkout %%{checkout} && cd ../
 # tar czvf suhosin-%%{version}.tgz ./suhosin/
-Source0:        http://download.suhosin.org/suhosin-%{version}.tgz
+Source0:        http://download.suhosin.org/suhosin-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 Provides:       %{real_name} = %{version}
